@@ -1,0 +1,338 @@
+@font-face {
+  font-family: "DroidSans";
+  src: url(fonts/Droid\Sans/);
+}
+@font-face {
+  font-family: "PTSans";
+  src: url(fonts/PT\Sans/);
+}
+@font-face {
+  font-family: "PT SansCaption";
+  src: url(fonts/Droid\ Sans/);
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url(images/backgroung.png);
+}
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+  font-size: 0;
+  box-shadow: 0 4px 8px rgb(136 134 134 / 50%);
+}
+
+.t-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+.in-b {
+  display: inline-block;
+}
+
+.logo {
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.service {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  font-style: italic;
+  color: #9f9f9f;
+  position: relative;
+  margin-top: 40px;
+  padding-right: 50px;
+  padding-left: 10px;
+  padding-top: 47px;
+}
+.phones {
+  font-size: 22px;
+  font-family: "PTSans";
+  color: rgb(128, 128, 128);
+  font-weight: bold;
+  line-height: 1;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
+}
+
+.border {
+  border: 2px solid white;
+}
+
+.menu {
+  display: inline;
+  text-align: center;
+  position: relative;
+}
+.menu li {
+  width: 130px;
+  display: inline-block;
+  text-transform: uppercase;
+  border-left: 1px rgb(241, 241, 241) solid;
+  border-right: 1px rgb(194, 194, 194) solid;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+  background: linear-gradient(to bottom, white, rgb(221, 221, 221));
+  box-shadow: 0 3px 3px rgb(136 134 134 / 70%);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "DroidSans";
+  color: rgb(152, 152, 152);
+  font-weight: bold;
+  line-height: 2.077;
+}
+.menu li:last-child {
+  width: 200px;
+  text-align: center;
+  display: inline-block;
+  border-left: 1px rgb(241, 241, 241) solid;
+  background-color: whitesmoke;
+  background: linear-gradient(to bottom, white, rgb(221, 221, 221));
+  box-shadow: 0 3px 3px rgb(136 134 134 / 70%);
+}
+
+.line li {
+  display: table-cell;
+}
+.side-menu {
+  display: inline-block;
+  width: 215px;
+  text-transform: uppercase;
+}
+.side-menu a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "DroidSans";
+  color: rgb(152, 152, 152);
+  font-weight: bold;
+  line-height: 2.077;
+  text-align: left;
+  text-shadow: 0.5px 0.866px 0px rgba(255, 255, 255, 0.004);
+  padding: 6px 0 6px 15px;
+  background-color: whitesmoke;
+  background: linear-gradient(to bottom, whitesmoke, rgb(228, 228, 228));
+  box-shadow: 0 3px 3px rgb(136 134 134 / 100%);
+  width: 200px;
+  margin-bottom: 3px;
+}
+.text-search {
+  font-size: 13px;
+  font-family: "PTSans";
+  color: rgb(77, 77, 77);
+  font-style: italic;
+}
+
+.text-p {
+  font-family: PTSans italic;
+}
+
+.button {
+  display: inline-block;
+}
+
+.button:after a {
+  content: "";
+  width: 15px;
+  height: 14px;
+  background: url("./images/Button.png");
+  position: absolute;
+}
+
+.soc-menu li {
+  display: inline-block;
+  bottom: 0;
+}
+.soc-menu a {
+  display: inline-block;
+  position: relative;
+  padding: 15px;
+}
+.soc-menu li a:before {
+  content: "";
+  width: 15px;
+  height: 14px;
+  background: url("./images/sprite_soc.png");
+  position: absolute;
+  top: 100%;
+}
+.soc-menu li + li a:before {
+  content: "";
+  width: 20px;
+  height: 14px;
+  background: url("./images/sprite_soc.png");
+  position: absolute;
+  top: 100%;
+}
+.soc-menu li + li + li a:before {
+  content: "";
+  width: 20px;
+  height: 14px;
+  background: url("./images/sprite_soc.png");
+  position: absolute;
+  top: 100%;
+}
+.soc-menu li a:before {
+  background-position: 0 0;
+}
+.soc-menu li + li a:before {
+  background-position: -31.5px 0;
+}
+
+.soc-menu li + li + li a:before {
+  background-position: -74px 0;
+}
+
+.soc-menu li:hover a:before {
+  background-position: -16px -14px;
+}
+
+.soc-menu li + li:hover a:before {
+  background-position: -52.5px 0;
+}
+
+.soc-menu li + li + li:hover a:before {
+  background-position: -95px 0;
+}
+
+.margin-t {
+  margin-top: 20px;
+}
+.add-bg {
+  width: 1000px;
+  display: inline;
+  background: linear-gradient(to top, whitesmoke, rgb(66, 66, 66));
+  z-index: 5;
+}
